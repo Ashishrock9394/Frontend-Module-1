@@ -403,11 +403,6 @@ footer{
         width: 70%;
         overflow: hidden;
     }
-    .column {
-        width: 50%;
-        display: grid;
-        margin-bottom: 20px;
-      }
 
 }
 
