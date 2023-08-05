@@ -210,7 +210,6 @@
 .price{
     background: #FF5E3A;
     color: #ffffff;
-    /* margin: 20px 0 5px 20px; */
     border: none;
     width: 80px;
     height: 29px;
@@ -316,9 +315,6 @@
     display: block;
     margin: auto;
     width: 80%;
-  }
-.latest-money{
-    width: 42px;  
     height: 21px;
 }
 .latest-price{    
@@ -397,8 +393,42 @@ footer{
 .contact i{
     color: #FF5E3A;
 }
+@media screen and (max-width: 1478px) and (min-width: 768px) {
+    .collection-btn{
+        display: flex;
+        width: 100%;
+    }
+    .money{
+        display: flex;
+        width: 70%;
+        overflow: hidden;
+    }
+    .column {
+        width: 50%;
+        display: grid;
+        margin-bottom: 20px;
+      }
+
+}
 
 @media screen and (max-width: 768px) {
+    .navbar{
+        width: min-content;
+    }
+    .hero-section{
+        width: 100%;
+        display: flex;
+    }
+    .collection-btn{
+        display: flex;
+        width: 100%;
+    }
+    .money{
+        display: flex;
+        width: 50%;
+        overflow: hidden;
+    }
+    
     .column {
       width: 100%;
       display: block;
